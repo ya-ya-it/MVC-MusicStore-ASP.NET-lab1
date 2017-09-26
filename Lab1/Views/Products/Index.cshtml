@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+<ul>
+    
+    <li>@Html.ActionLink("Laptop", "Details", "Products", new { details = "Laptop" }, null)</li>
+    
+    <li>@Html.ActionLink("Tablet", "Details", "Products", new { details = "Tablet" }, null)</li>
+    
+    <li>@Html.ActionLink("Desktop", "Details", "Products", new { details = "Desktop" }, null)</li>
+    
+</ul>
